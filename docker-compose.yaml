@@ -5,6 +5,7 @@ services:
             context: ./server
         ports: 
             - 8000:8000
+            - 8000
     ui:
         build: 
             context: ./front-end
